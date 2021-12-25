@@ -1,0 +1,25 @@
+{
+  "name": "mygit",
+  "version": "1.0.0",
+  "description": "[web test](https://mostafasadeghifar.github.io/)",
+  "main": "tailwind.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "tailwindcss": "^3.0.7"
+  },
+  "scripts": {
+    "build": "tailwindcss build ./src/input.css -o ./dist/output.css",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mostafasadeghifar/mostafasadeghifar.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mostafasadeghifar/mostafasadeghifar.github.io/issues"
+  },
+  "homepage": "https://github.com/mostafasadeghifar/mostafasadeghifar.github.io#readme"
+}
